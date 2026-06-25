@@ -1,3 +1,7 @@
+<script setup>
+const { data: mealPlan } = await useAsyncData('meal-plan', () => queryContent('/meal-plan').findOne())
+</script>
+
 <template>
   <main>
     <p style="margin-top: 40px;">
@@ -5,7 +9,7 @@
     </p>
     <h1>Meal Plan</h1>
     
-    <table class="meal-table">
+    <table class="meal-table" v-if="mealPlan">
       <thead>
         <tr>
           <th>Fecha</th>
@@ -14,47 +18,26 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Jueves, 25 de Junio</td>
+        <tr v-for="(day, index) in mealPlan.days" :key="index">
+          <td>{{ day.date }}</td>
           <td>
-            <NuxtLink to="/recipes/capuccino">Capuccino</NuxtLink> + <NuxtLink to="/recipes/omelette">Omelette</NuxtLink>
+            <span v-for="(item, i) in day.breakfast" :key="'b-'+i">
+              <NuxtLink :to="item.path">{{ item.title }}</NuxtLink>
+              <span v-if="i < day.breakfast.length - 1"> + </span>
+            </span>
           </td>
           <td>
-            <NuxtLink to="/recipes/lentejas">Lentejas</NuxtLink>
-          </td>
-        </tr>
-        <tr>
-          <td>Viernes, 26 de Junio</td>
-          <td>
-            <NuxtLink to="/recipes/capuccino">Capuccino</NuxtLink> + <NuxtLink to="/recipes/avena-mantequilla-mani-manzana">Avena con PB y Manzana</NuxtLink>
-          </td>
-          <td>
-            <NuxtLink to="/recipes/arroz-con-pollo-con-huancaina">Arroz con Pollo a la Huancaína</NuxtLink>
-          </td>
-        </tr>
-        <tr>
-          <td>Sábado, 27 de Junio</td>
-          <td>
-            <NuxtLink to="/recipes/capuccino">Capuccino</NuxtLink> + <NuxtLink to="/recipes/pan-con-palta-huevo">Pan con Palta y Huevo</NuxtLink>
-          </td>
-          <td>
-            <NuxtLink to="/recipes/lomo-saltado">Lomo Saltado</NuxtLink>
-          </td>
-        </tr>
-        <tr>
-          <td>Domingo, 28 de Junio</td>
-          <td>
-            <NuxtLink to="/recipes/capuccino">Capuccino</NuxtLink> + <NuxtLink to="/recipes/huevos-revueltos">Huevos Revueltos</NuxtLink>
-          </td>
-          <td>
-            <NuxtLink to="/recipes/aji-de-gallina">Ají de Gallina</NuxtLink> o <NuxtLink to="/recipes/tallarines-verdes">Tallarines Verdes</NuxtLink>
+            <span v-for="(item, i) in day.dinner" :key="'d-'+i">
+              <NuxtLink :to="item.path">{{ item.title }}</NuxtLink>
+              <span v-if="i < day.dinner.length - 1"> o </span>
+            </span>
           </td>
         </tr>
       </tbody>
     </table>
+    <p v-else>Loading meal plan...</p>
   </main>
 </template>
-
 <style scoped>
 .meal-table {
   width: 100%;

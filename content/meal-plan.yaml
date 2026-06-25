@@ -1,0 +1,39 @@
+days:
+  - date: Jueves, 25 de Junio
+    breakfast:
+      - title: Capuccino
+        path: /recipes/capuccino
+      - title: Omelette
+        path: /recipes/omelette
+    dinner:
+      - title: Lentejas
+        path: /recipes/lentejas
+  - date: Viernes, 26 de Junio
+    breakfast:
+      - title: Capuccino
+        path: /recipes/capuccino
+      - title: Avena con PB y Manzana
+        path: /recipes/avena-mantequilla-mani-manzana
+    dinner:
+      - title: Arroz con Pollo a la Huancaína
+        path: /recipes/arroz-con-pollo-con-huancaina
+  - date: Sábado, 27 de Junio
+    breakfast:
+      - title: Capuccino
+        path: /recipes/capuccino
+      - title: Pan con Palta y Huevo
+        path: /recipes/pan-con-palta-huevo
+    dinner:
+      - title: Lomo Saltado
+        path: /recipes/lomo-saltado
+  - date: Domingo, 28 de Junio
+    breakfast:
+      - title: Capuccino
+        path: /recipes/capuccino
+      - title: Huevos Revueltos
+        path: /recipes/huevos-revueltos
+    dinner:
+      - title: Ají de Gallina
+        path: /recipes/aji-de-gallina
+      - title: Tallarines Verdes
+        path: /recipes/tallarines-verdes
