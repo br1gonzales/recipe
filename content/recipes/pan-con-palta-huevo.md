@@ -1,0 +1,11 @@
+---
+title: "Pan con Palta y Huevo Frito"
+steps:
+  - "Cortar un pan francés, ciabatta o pan de molde por la mitad y tostarlo ligeramente."
+  - "Pelar media palta madura y aplastarla en un plato con un tenedor. Sazonar con sal, un chorrito de aceite de oliva y unas gotas de limón (opcional)."
+  - "En una sartén pequeña, calentar un poco de aceite o mantequilla a fuego medio."
+  - "Freír un huevo al gusto (con la yema líquida o cocida). Añadir una pizca de sal y pimienta."
+  - "Untar la palta triturada sobre el pan tostado de manera uniforme."
+  - "Colocar el huevo frito cuidadosamente sobre la capa de palta."
+  - "Cerrar el sándwich o comerlo abierto, acompañado de un buen capuccino."
+---

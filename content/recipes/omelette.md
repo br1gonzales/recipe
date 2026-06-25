@@ -1,0 +1,11 @@
+---
+title: "Omelette"
+steps:
+  - "Batir 2 o 3 huevos en un bol con una pizca de sal y pimienta."
+  - "Calentar una sartén antiadherente a fuego medio con un poco de mantequilla o aceite de oliva."
+  - "Verter los huevos batidos en la sartén, moviendo suavemente para que cubran el fondo."
+  - "Cuando los bordes comiencen a cuajar pero el centro aún esté un poco húmedo, agregar el relleno deseado (queso, jamón, espinacas) en una mitad."
+  - "Con ayuda de una espátula, doblar la otra mitad del omelette sobre el relleno."
+  - "Cocinar por un minuto más para que el queso se derrita."
+  - "Servir inmediatamente, acompañado de un capuccino caliente."
+---

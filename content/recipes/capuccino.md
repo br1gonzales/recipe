@@ -1,0 +1,12 @@
+---
+title: "Capuccino Casero"
+steps:
+  - "Preparar 1/3 de taza de café expreso o café pasado bien concentrado y caliente."
+  - "Calentar 2/3 de taza de leche entera sin que llegue a hervir."
+  - "Usar un espumador de leche, licuadora o una prensa francesa para espumar la leche caliente hasta que doble su volumen y tenga una textura cremosa."
+  - "Verter el café en una taza grande."
+  - "Añadir lentamente la leche caliente sobre el café, sosteniendo la espuma con una cuchara."
+  - "Finalmente, colocar la espuma de leche en la parte superior."
+  - "Espolvorear cacao en polvo o canela molida para decorar."
+  - "Servir y disfrutar con tu desayuno favorito."
+---

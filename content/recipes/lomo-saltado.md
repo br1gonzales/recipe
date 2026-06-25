@@ -1,0 +1,13 @@
+---
+title: "Lomo Saltado"
+steps:
+  - "Cortar 500g de lomo de res en tiras gruesas y sazonar con sal, pimienta y comino."
+  - "Cortar 1 cebolla roja y 2 tomates en gajos gruesos, y ají amarillo en tiras."
+  - "Freír 500g de papas amarillas o blancas cortadas en bastones y reservar."
+  - "En un wok o sartén grande a fuego muy alto con un poco de aceite, saltear la carne rápidamente para sellarla. Retirar y reservar."
+  - "En la misma sartén, saltear la cebolla y el ají amarillo por un par de minutos."
+  - "Agregar el tomate y un chorrito de vinagre tinto y sillao (salsa de soya)."
+  - "Reincorporar la carne y mezclar todo rápidamente."
+  - "Apagar el fuego, espolvorear culantro picado fresco."
+  - "Servir inmediatamente acompañado de las papas fritas y arroz blanco."
+---

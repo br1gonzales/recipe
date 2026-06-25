@@ -1,0 +1,13 @@
+---
+title: "Ají de Gallina"
+steps:
+  - "Sancochar 1 pechuga de pollo en agua con sal, apio y zanahoria. Deshilachar y reservar el caldo."
+  - "Remojar 3 rebanadas de pan de molde (sin corteza) o galletas soda en un poco de leche evaporada o caldo."
+  - "En una olla, hacer un aderezo sofriendo 1 cebolla picada finamente y 2 dientes de ajo molidos."
+  - "Añadir 3 cucharadas de pasta de ají amarillo y sofreír por unos minutos más."
+  - "Licuar el pan/galletas remojadas y agregarlo a la olla con el aderezo."
+  - "Cocinar a fuego lento, agregando poco a poco el caldo de pollo hasta obtener una crema espesa."
+  - "Incorporar el pollo deshilachado y un chorrito más de leche evaporada. Mezclar bien."
+  - "Añadir 50g de queso parmesano rallado y pecanas picadas (opcional)."
+  - "Servir sobre papas sancochadas, acompañado de arroz blanco, huevo duro y aceitunas negras."
+---
